@@ -1,0 +1,12 @@
+{
+  "name": "myapp",
+  "version": "0.1.0",
+  "description": "",
+  "main": "app/app.coffee",
+  "scripts": {
+    "start": "coffee app/app.coffee",
+    "test": "mocha test/*/*.spec* --compilers coffee:coffee-script/register"
+  },
+  "author": "S Cornelius",
+  "license": "ISC"
+}
